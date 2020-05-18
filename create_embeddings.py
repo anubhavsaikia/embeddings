@@ -87,7 +87,7 @@ model.fit(
     {"InputLayer": x_train},
     {"outputLayer": y_train},
     epochs=1,
-    batch_size=2
+    batch_size=50
 )
 
 model.save('embedding_one')
